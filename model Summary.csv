@@ -1,0 +1,37 @@
+                      OLS Regression Results                      
+Dep. Variable:   ,total_spent_ln  ,  R-squared:         ,   0.315 
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.312 
+Method:          ,Least Squares   ,  F-statistic:       ,   88.95 
+Date:            ,Thu, 16 Jul 2020,  Prob (F-statistic):,1.95e-269
+Time:            ,16:06:32        ,  Log-Likelihood:    , -2772.0 
+No. Observations:,  3500          ,  AIC:               ,   5582. 
+Df Residuals:    ,  3481          ,  BIC:               ,   5699. 
+Df Model:        ,    18          ,                     ,         
+Covariance Type: ,nonrobust       ,                     ,         
+              ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+Intercept     ,    6.8173,    0.037,  185.018, 0.000,    6.745,    6.890
+creddebt      ,    0.0232,    0.004,    5.170, 0.000,    0.014,    0.032
+lnothdebt     ,    0.0877,    0.010,    8.438, 0.000,    0.067,    0.108
+region_5      ,    0.0445,    0.023,    1.969, 0.049,    0.000,    0.089
+gender_1      ,   -0.0538,    0.018,   -2.953, 0.003,   -0.090,   -0.018
+employ_14     ,    0.2183,    0.069,    3.170, 0.002,    0.083,    0.353
+employ_26     ,    0.2241,    0.102,    2.207, 0.027,    0.025,    0.423
+empcat_5      ,    0.1402,    0.026,    5.445, 0.000,    0.090,    0.191
+retire_1      ,   -0.3041,    0.031,   -9.921, 0.000,   -0.364,   -0.244
+card_2        ,   -0.5958,    0.029,  -20.589, 0.000,   -0.653,   -0.539
+card_3        ,   -0.6422,    0.029,  -21.852, 0.000,   -0.700,   -0.585
+card_4        ,   -0.6968,    0.030,  -23.137, 0.000,   -0.756,   -0.638
+card_5        ,   -0.5949,    0.052,  -11.535, 0.000,   -0.696,   -0.494
+card2_2       ,   -0.4491,    0.030,  -15.125, 0.000,   -0.507,   -0.391
+card2_3       ,   -0.4546,    0.030,  -15.405, 0.000,   -0.513,   -0.397
+card2_4       ,   -0.4711,    0.032,  -14.573, 0.000,   -0.535,   -0.408
+card2_5       ,   -0.3724,    0.042,   -8.864, 0.000,   -0.455,   -0.290
+reason_2      ,    0.2710,    0.037,    7.410, 0.000,    0.199,    0.343
+card2benefit_3,   -0.0475,    0.021,   -2.294, 0.022,   -0.088,   -0.007
+Omnibus:      ,82.552,  Durbin-Watson:     ,   1.939
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  91.503
+Skew:         ,-0.348,  Prob(JB):          ,1.35e-20
+Kurtosis:     , 3.378,  Cond. No.          ,    37.3
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
